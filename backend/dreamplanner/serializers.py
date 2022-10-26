@@ -2,6 +2,7 @@ from rest_framework import serializers
 from .models import User
 from .models import Destination
 from .models import Expense
+from django.contrib.auth.hashers import make_password
 
 class ExpenseSerializer(serializers.ModelSerializer):
     class Meta:
@@ -19,7 +20,8 @@ class DestinationSerializer(serializers.ModelSerializer):
 class UserSerializer(serializers.ModelSerializer):
     # destinations = DestinationSerializer(many=True)
     # expenses = ExpenseSerializer(many=True)
-
+    def validate_password(self, value: str) -> str:
+        return make_password(value)
     class Meta:
         model = User
         fields = "__all__"
