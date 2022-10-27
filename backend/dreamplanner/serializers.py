@@ -10,7 +10,7 @@ class ExpenseSerializer(serializers.ModelSerializer):
         fields = "__all__"
 
 class DestinationSerializer(serializers.ModelSerializer):
-    # expenses = ExpenseSerializer(many=True)
+    expenses = ExpenseSerializer(many=True, required=False)
 
     class Meta:
         model = Destination
@@ -18,8 +18,8 @@ class DestinationSerializer(serializers.ModelSerializer):
 
 
 class UserSerializer(serializers.ModelSerializer):
-    # destinations = DestinationSerializer(many=True)
-    # expenses = ExpenseSerializer(many=True)
+    destinations = DestinationSerializer(many=True, required=False)
+    # expenses = ExpenseSerializer(many=True, required=False)
     def validate_password(self, value: str) -> str:
         return make_password(value)
     class Meta:

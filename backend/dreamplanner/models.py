@@ -29,6 +29,8 @@ class User(AbstractBaseUser,PermissionsMixin):
 
     email = models.EmailField(db_index=True, unique=True, max_length=254)
     username = models.CharField(unique=True, max_length=240)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
 
     objects = UserManager()
 
@@ -63,6 +65,9 @@ class Destination(models.Model):
     budget = models.FloatField()
     photo = models.CharField(max_length=250)
     description = models.CharField(max_length=250)
+    completed = models.BooleanField(default=False)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
 
     def __str__(self):
         return self.name
@@ -83,6 +88,8 @@ class Expense(models.Model):
     merchant = models.CharField(max_length=100)
     amount = models.FloatField()
     details = models.CharField(max_length=250)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
 
     def __str__(self):
         return self.amount
