@@ -25,6 +25,18 @@
     },
     {
         "model": "dreamplanner.user",
+        "pk": 3,
+        "fields": {
+            "username": "Brian",
+            "email": "brian@gmail.com",
+            "password": "1234",
+            "created_at": "2022-10-27T18:25:09.912866Z",
+            "updated_at": "2022-10-27T18:25:09.912881Z"
+          }
+
+    },
+    {
+        "model": "dreamplanner.user",
         "pk": 4,
         "fields": {
             "username": "Julieann",
@@ -106,5 +118,5 @@
             "updated_at": "2022-10-27T18:25:09.912881Z"
           }
 
-    },
+    }
 ]

@@ -34,9 +34,84 @@
         "pk": 3,
         "fields": {
             "name": "Rome",
+            "budget": 4200.0,
+            "photo": "https://i.imgur.com/2IkLQxX.png",
+            "description": "After traveling through Europe before, I want to see a place rich with history.  All roads lead to Rome and one day I will get there too. ",
+            "completed": false,
+            "created_at": "2022-10-27T02:59:31.018270Z",
+            "updated_at": "2022-10-27T02:59:31.018299Z",
+            "user": 3
+          }
+
+    },
+    {
+        "model": "dreamplanner.destination",
+        "pk": 4,
+        "fields": {
+            "name": "Capetown",
             "budget": 5500.0,
-            "photo": "https://i.imgur.com/jK04iJu.png",
+            "photo": "https://i.imgur.com/wKYIy5c.png",
+            "description": "Ive traveled all over the world!  But capetown can captivated my imagination.  I want to experience a place and a culture that is far from the reaches of this sunny so cal girl.",
+            "completed": false,
+            "created_at": "2022-10-27T02:59:31.018270Z",
+            "updated_at": "2022-10-27T02:59:31.018299Z",
+            "user": 4
+          }
+
+    },
+    {
+        "model": "dreamplanner.destination",
+        "pk": 5,
+        "fields": {
+            "name": "Rwanda",
+            "budget": 5200.0,
+            "photo": "https://i.imgur.com/3wggK7C.png",
+            "description": "Sharks and Gorillas are magical creatures.  Rwanda is one of the few places left to see this endangered species.   I can't wait to drag some of my best friends to see gorillas in Africa.",
+            "completed": false,
+            "created_at": "2022-10-27T02:59:31.018270Z",
+            "updated_at": "2022-10-27T02:59:31.018299Z",
+            "user": 5
+          }
+
+    },
+    {
+        "model": "dreamplanner.destination",
+        "pk": 6,
+        "fields": {
+            "name": "Paris",
+            "budget": 7500.0,
+            "photo": "https://i.imgur.com/DTseQHb.png",
+            "description": "Paris is just a magical place.  Love is always in the air in paris.  I want to get away and just forget the daily life just for a brief moment and enjoy life and it's wonders.",
+            "completed": false,
+            "created_at": "2022-10-27T02:59:31.018270Z",
+            "updated_at": "2022-10-27T02:59:31.018299Z",
+            "user": 6
+          }
+
+    },
+    {
+        "model": "dreamplanner.destination",
+        "pk": 7,
+        "fields": {
+            "name": "Tokyo",
+            "budget": 3300.0,
+            "photo": "https://i.imgur.com/c8ZcYJT.png",
             "description": "lovely beaches",
+            "completed": false,
+            "created_at": "2022-10-27T02:59:31.018270Z",
+            "updated_at": "2022-10-27T02:59:31.018299Z",
+            "user": 7
+          }
+
+    },
+    {
+        "model": "dreamplanner.destination",
+        "pk": 8,
+        "fields": {
+            "name": "Bali",
+            "budget": 3900.0,
+            "photo": "https://i.imgur.com/9bZageI.png",
+            "description": "My wife and I recently got married.  Life is going to change for us with this married life, and I think Bali would be a great places to relax and enjoy the serenity of the island.",
             "completed": false,
             "created_at": "2022-10-27T02:59:31.018270Z",
             "updated_at": "2022-10-27T02:59:31.018299Z",
@@ -46,122 +121,32 @@
     },
     {
         "model": "dreamplanner.destination",
-        "pk": 1,
+        "pk": 9,
         "fields": {
-            "name": "Bora Bora",
-            "budget": 5500.0,
-            "photo": "https://i.imgur.com/jK04iJu.png",
-            "description": "lovely beaches",
+            "name": "Bangkok",
+            "budget": 2700.0,
+            "photo": "https://i.imgur.com/FYU9SWi.png",
+            "description": "Culturally Bangkok has it all.  The food, temples, and the people.  I would love to take a flight to the islands to Koh Phi Phi as well. ",
             "completed": false,
             "created_at": "2022-10-27T02:59:31.018270Z",
             "updated_at": "2022-10-27T02:59:31.018299Z",
-            "user": 1
+            "user": 9
           }
 
     },
     {
         "model": "dreamplanner.destination",
-        "pk": 1,
+        "pk": 10,
         "fields": {
-            "name": "Bora Bora",
-            "budget": 5500.0,
-            "photo": "https://i.imgur.com/jK04iJu.png",
-            "description": "lovely beaches",
+            "name": "Barcelona",
+            "budget": 33000.0,
+            "photo": "https://i.imgur.com/5GMwnGf.png",
+            "description": "Love the laid back culture in Barcelona.  I want to visit all of Gaudis structures and catch a futbol game.  If time persists I might even take a short flight to Ibiza",
             "completed": false,
             "created_at": "2022-10-27T02:59:31.018270Z",
             "updated_at": "2022-10-27T02:59:31.018299Z",
-            "user": 1
+            "user": 10
           }
 
-    },
-    {
-        "model": "dreamplanner.destination",
-        "pk": 1,
-        "fields": {
-            "name": "Bora Bora",
-            "budget": 5500.0,
-            "photo": "https://i.imgur.com/jK04iJu.png",
-            "description": "lovely beaches",
-            "completed": false,
-            "created_at": "2022-10-27T02:59:31.018270Z",
-            "updated_at": "2022-10-27T02:59:31.018299Z",
-            "user": 1
-          }
-
-    },
-    {
-        "model": "dreamplanner.destination",
-        "pk": 1,
-        "fields": {
-            "name": "Bora Bora",
-            "budget": 5500.0,
-            "photo": "https://i.imgur.com/jK04iJu.png",
-            "description": "lovely beaches",
-            "completed": false,
-            "created_at": "2022-10-27T02:59:31.018270Z",
-            "updated_at": "2022-10-27T02:59:31.018299Z",
-            "user": 1
-          }
-
-    },
-    {
-        "model": "dreamplanner.destination",
-        "pk": 1,
-        "fields": {
-            "name": "Bora Bora",
-            "budget": 5500.0,
-            "photo": "https://i.imgur.com/jK04iJu.png",
-            "description": "lovely beaches",
-            "completed": false,
-            "created_at": "2022-10-27T02:59:31.018270Z",
-            "updated_at": "2022-10-27T02:59:31.018299Z",
-            "user": 1
-          }
-
-    },
-    {
-        "model": "dreamplanner.destination",
-        "pk": 1,
-        "fields": {
-            "name": "Bora Bora",
-            "budget": 5500.0,
-            "photo": "https://i.imgur.com/jK04iJu.png",
-            "description": "lovely beaches",
-            "completed": false,
-            "created_at": "2022-10-27T02:59:31.018270Z",
-            "updated_at": "2022-10-27T02:59:31.018299Z",
-            "user": 1
-          }
-
-    },
-    {
-        "model": "dreamplanner.destination",
-        "pk": 1,
-        "fields": {
-            "name": "Bora Bora",
-            "budget": 5500.0,
-            "photo": "https://i.imgur.com/jK04iJu.png",
-            "description": "lovely beaches",
-            "completed": false,
-            "created_at": "2022-10-27T02:59:31.018270Z",
-            "updated_at": "2022-10-27T02:59:31.018299Z",
-            "user": 1
-          }
-
-    },
-    {
-        "model": "dreamplanner.destination",
-        "pk": 1,
-        "fields": {
-            "name": "Bora Bora",
-            "budget": 5500.0,
-            "photo": "https://i.imgur.com/jK04iJu.png",
-            "description": "lovely beaches",
-            "completed": false,
-            "created_at": "2022-10-27T02:59:31.018270Z",
-            "updated_at": "2022-10-27T02:59:31.018299Z",
-            "user": 1
-          }
-
-    },
+    }
 ]

@@ -1,7 +1,7 @@
 [
     {
         "model": "dreamplanner.expense",
-        "pk": 6,
+        "pk": 1,
         "fields": {
             "date": "1988-01-01",
             "category": "transportation",
@@ -10,8 +10,8 @@
             "details": "Round trip plane ticket",
             "created_at": "2022-10-27T03:01:29.953338Z",
             "updated_at": "2022-10-27T03:01:29.953356Z",
-            "destination": 6,
-            "user": 5
+            "destination": 1,
+            "user": 1
           }
 
     }
