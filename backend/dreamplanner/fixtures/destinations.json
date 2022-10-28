@@ -1,0 +1,167 @@
+[
+    {
+        "model": "dreamplanner.destination",
+        "pk": 1,
+        "fields": {
+            "name": "Bora Bora",
+            "budget": 5500.0,
+            "photo": "https://i.imgur.com/jK04iJu.png",
+            "description": "I've always seen the majestic views of the water.  I want to take my baby girl on a romantic getaway for a few weekends.  Can't wait to share champagne and sunsets.",
+            "completed": false,
+            "created_at": "2022-10-27T02:59:31.018270Z",
+            "updated_at": "2022-10-27T02:59:31.018299Z",
+            "user": 1
+          }
+
+    },
+    {
+        "model": "dreamplanner.destination",
+        "pk": 2,
+        "fields": {
+            "name": "Santorini",
+            "budget": 6000.0,
+            "photo": "https://i.imgur.com/9iHsPFY.png",
+            "description": "The blue and white structures are so magical.  Ideallly this would be a dream honeymoon! Hint hint!  But its just a surreal place next to the waters.",
+            "completed": false,
+            "created_at": "2022-10-27T02:59:31.018270Z",
+            "updated_at": "2022-10-27T02:59:31.018299Z",
+            "user": 2
+          }
+
+    },
+    {
+        "model": "dreamplanner.destination",
+        "pk": 3,
+        "fields": {
+            "name": "Rome",
+            "budget": 5500.0,
+            "photo": "https://i.imgur.com/jK04iJu.png",
+            "description": "lovely beaches",
+            "completed": false,
+            "created_at": "2022-10-27T02:59:31.018270Z",
+            "updated_at": "2022-10-27T02:59:31.018299Z",
+            "user": 1
+          }
+
+    },
+    {
+        "model": "dreamplanner.destination",
+        "pk": 1,
+        "fields": {
+            "name": "Bora Bora",
+            "budget": 5500.0,
+            "photo": "https://i.imgur.com/jK04iJu.png",
+            "description": "lovely beaches",
+            "completed": false,
+            "created_at": "2022-10-27T02:59:31.018270Z",
+            "updated_at": "2022-10-27T02:59:31.018299Z",
+            "user": 1
+          }
+
+    },
+    {
+        "model": "dreamplanner.destination",
+        "pk": 1,
+        "fields": {
+            "name": "Bora Bora",
+            "budget": 5500.0,
+            "photo": "https://i.imgur.com/jK04iJu.png",
+            "description": "lovely beaches",
+            "completed": false,
+            "created_at": "2022-10-27T02:59:31.018270Z",
+            "updated_at": "2022-10-27T02:59:31.018299Z",
+            "user": 1
+          }
+
+    },
+    {
+        "model": "dreamplanner.destination",
+        "pk": 1,
+        "fields": {
+            "name": "Bora Bora",
+            "budget": 5500.0,
+            "photo": "https://i.imgur.com/jK04iJu.png",
+            "description": "lovely beaches",
+            "completed": false,
+            "created_at": "2022-10-27T02:59:31.018270Z",
+            "updated_at": "2022-10-27T02:59:31.018299Z",
+            "user": 1
+          }
+
+    },
+    {
+        "model": "dreamplanner.destination",
+        "pk": 1,
+        "fields": {
+            "name": "Bora Bora",
+            "budget": 5500.0,
+            "photo": "https://i.imgur.com/jK04iJu.png",
+            "description": "lovely beaches",
+            "completed": false,
+            "created_at": "2022-10-27T02:59:31.018270Z",
+            "updated_at": "2022-10-27T02:59:31.018299Z",
+            "user": 1
+          }
+
+    },
+    {
+        "model": "dreamplanner.destination",
+        "pk": 1,
+        "fields": {
+            "name": "Bora Bora",
+            "budget": 5500.0,
+            "photo": "https://i.imgur.com/jK04iJu.png",
+            "description": "lovely beaches",
+            "completed": false,
+            "created_at": "2022-10-27T02:59:31.018270Z",
+            "updated_at": "2022-10-27T02:59:31.018299Z",
+            "user": 1
+          }
+
+    },
+    {
+        "model": "dreamplanner.destination",
+        "pk": 1,
+        "fields": {
+            "name": "Bora Bora",
+            "budget": 5500.0,
+            "photo": "https://i.imgur.com/jK04iJu.png",
+            "description": "lovely beaches",
+            "completed": false,
+            "created_at": "2022-10-27T02:59:31.018270Z",
+            "updated_at": "2022-10-27T02:59:31.018299Z",
+            "user": 1
+          }
+
+    },
+    {
+        "model": "dreamplanner.destination",
+        "pk": 1,
+        "fields": {
+            "name": "Bora Bora",
+            "budget": 5500.0,
+            "photo": "https://i.imgur.com/jK04iJu.png",
+            "description": "lovely beaches",
+            "completed": false,
+            "created_at": "2022-10-27T02:59:31.018270Z",
+            "updated_at": "2022-10-27T02:59:31.018299Z",
+            "user": 1
+          }
+
+    },
+    {
+        "model": "dreamplanner.destination",
+        "pk": 1,
+        "fields": {
+            "name": "Bora Bora",
+            "budget": 5500.0,
+            "photo": "https://i.imgur.com/jK04iJu.png",
+            "description": "lovely beaches",
+            "completed": false,
+            "created_at": "2022-10-27T02:59:31.018270Z",
+            "updated_at": "2022-10-27T02:59:31.018299Z",
+            "user": 1
+          }
+
+    },
+]
