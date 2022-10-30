@@ -59,8 +59,8 @@ Everyone has a dream vacation in their bucketlist.  We're here to bring those dr
 
 ## Installation Instruction
 * Fork and clone this repository to your local directory
-* Navigate to the directory in your terminal and run ` python3 -m venv .env ` to create a virutual environment
-* Run ` source .env/bin/activate ` to start a virutual environment
+* Navigate to the directory in your terminal and run ` python3 -m venv .env ` to create a virtual environment
+* Run ` source .env/bin/activate ` to start a virtual environment
 * Run ` pip3 install django ` to install django
 * Run ` pip3 install psycopg2-binary ` to install psycopg2
 * Run ` pip3 install djangorestframework django-cors-headers ` to install djangorestframework and django-cors-headers 
@@ -72,36 +72,12 @@ Everyone has a dream vacation in their bucketlist.  We're here to bring those dr
 * Go to the <a href="https://github.com/devin-lynch/dreamplanner-client" target="_blank">client repository</a> and folow the installation instruction
 * Once finished, use `npm start` in the client terminal to start your application
 
-## Daily Sprints
-Day 1 
-- Set up both server and client repos
-- Set up User auth and database models on django/psql
+## Our Approach Used
+We used the Miro to create the User Stories and mapped out the RESTful Routes.  We implemented a SCRUM dashboard using sticky notes.  
 
-Day 2
-- Set up all backend and frontend routes and API calls
-- Initial setup of all components on Client side
-- Research dashboard options
-- Research API's
+We set up the backend and designed a rough draft of how we wanted our site to look.  Then we tackled the front end routes to reach MVP.  After we got the site functional, we styled it with Tailwind.
 
-
-Day 3
-- Client side views
-- Dashboards
-- Seeder info
-
-Day 4
-- Styling with tailwind
-- Finalize all functionalities included in MVP
-- Stretch goals (if possible)
-
-Day 5
-- Continue Styling
-- Test/Debug
-- Stretch goals (if possible)
-
-Day6
-- Deployment
-- Test/Debug
+We had daily stand ups with a checklist of Big Milestones and daily goals.  We ranked each item from high to low priority.  We tested and dedugged daily to polish the site until we were satisfied. 
 
 ## Tech Stack Used
 - Django
