@@ -1,7 +1,6 @@
 # Dream Planner
 Everyone has a dream vacation in their bucketlist.  We're here to bring those dreams closer to reality with a budget tracker.  Users can post and share their dream vacation and calculate how much they need to save each week.  Once the user goes on their vacation, they can add actual expenses to the trips.
 
-Users can share their expenses to others to help other see how much it really costs.  
 
 ## Team Members
 - VSPD - Valerie, Sean, Prija, Devin
@@ -10,6 +9,11 @@ Users can share their expenses to others to help other see how much it really co
 * User can create, read, update, delete profile
 * User can create, read, update, delete destination details.
 * User can create, read, update, delete expense from a destination.
+* User can estimate how much to save weekly based on budget and expected travel dates
+* User can add expenses to each destination and view actuals vs budget and expenses by category charts
+* User can mark/unmark trips as completed
+* User can search cities for hotel deals
+* User can access the app on any device
 
 ## Snapshot 
 ![Main Layout](/img/dreammain.png)
@@ -53,8 +57,20 @@ Users can share their expenses to others to help other see how much it really co
 | PUT | `/destinations/:destinationId/expense/:expenseId` | UPDATE | update an expense | 
 | DELETE | `/destinations/:destinationId/courses/:expenseId` | DESTROY | delete an expense  |
 
-## Install Instructions
-TBD
+## Installation Instruction
+* Fork and clone this repository to your local directory
+* Navigate to the directory in your terminal and run ` python3 -m venv .env ` to create a virutual environment
+* Run ` source .env/bin/activate ` to start a virutual environment
+* Run ` pip3 install django ` to install django
+* Run ` pip3 install psycopg2-binary ` to install psycopg2
+* Run ` pip3 install djangorestframework django-cors-headers ` to install djangorestframework and django-cors-headers 
+* Run ` pip3 install pip3 install djangorestframework-simplejwt ` to install djangorestframework-simplejwt
+* CD to backend folder ` cd backend ` 
+* Run ` python3 manage.py loaddata users.json ` to load user data
+* Run ` python3 manage.py loaddata destinations.json ` to load destination data
+* Run ` python3 manage.py runserver  ` to start the server
+* Go to the <a href="https://github.com/devin-lynch/dreamplanner-client" target="_blank">client repository</a> and folow the installation instruction
+* Once finished, use `npm start` in the client terminal to start your application
 
 ## Daily Sprints
 Day 1 
