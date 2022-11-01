@@ -147,7 +147,7 @@ STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CORS_ORIGIN_WHITELIST = [ 'http://localhost:3000', 'dreamplanner-vy.netlify.app' ]
+CORS_ORIGIN_WHITELIST = [ 'http://localhost:3000', 'https://dreamplanner-vy.netlify.app' ]
 
 import dj_database_url
 
